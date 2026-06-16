@@ -19,6 +19,7 @@ others are in progress and will be added shortly:
 - **Euria** — Infomaniak
 - **Lumo** — Proton
 - **ChatGPT** — OpenAI
+- **Gemini** — Google
 - **GitHub Copilot** — GitHub
 
 ## Claude
@@ -51,6 +52,11 @@ inside each marker describes what belongs there.
    want to use** contains a `< place-holder: ... >` inside another one — replace both.
 
 When you're done, search the file for `place-holder` to confirm none remain.
+
+**Re-vet after changing the rules.** If you edit the rules themselves (not just fill in or
+delete placeholders), re-vet the whole instruction set the way it was built: paste the full
+`CLAUDE.md` into Claude and ask whether anything in the instructions is problematic —
+conflicts, contradictions, or directives Claude can't actually act on.
 
 ### 2. Use it with Claude Code (applies to all projects)
 
