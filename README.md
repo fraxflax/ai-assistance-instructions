@@ -13,6 +13,14 @@ change its behaviour — rather than aspirational text it quietly ignores.
 
 Instructions specific to each assistant follow below, one section per assistant.
 
+**Anthropic's Claude is the first assistant vetted here.** Instruction sets for several
+others are in progress and will be added shortly:
+
+- **Euria** — Infomaniak
+- **Lumo** — Proton
+- **ChatGPT** — OpenAI
+- **GitHub Copilot** — GitHub
+
 ## Claude
 
 `CLAUDE-template.md` is the Claude instruction set: a starting point for a personal set of
