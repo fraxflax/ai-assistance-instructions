@@ -1,5 +1,0 @@
-# Local Claude Code settings (machine-specific)
-.claude/settings.local.json
-
-# Personal filled-in instruction files (never publish; templates live in <assistant>/)
-.euria.md
