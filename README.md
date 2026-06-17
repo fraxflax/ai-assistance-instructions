@@ -25,7 +25,8 @@ deploying it in Euria are in **[`EURIA-usage.md`](euria/EURIA-usage.md)**.
 
 ## Lumo (Proton)
 
-*Work in progress — instructions for this assistant will be added soon.*
+The Lumo instruction set is **[`LUMO-template.md`](lumo/LUMO-template.md)**. Instructions for filling it in and
+deploying it in Lumo are in **[`LUMO-usage.md`](lumo/LUMO-usage.md)**.
 
 ## ChatGPT (OpenAI)
 
