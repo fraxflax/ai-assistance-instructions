@@ -4,8 +4,7 @@
 instructions that tell Euria (Infomaniak's web assistant) who you are and how you want it to
 respond. It was iterated and vetted in Euria on 17 June 2026 — run through the assistant to
 root out internal conflicts and contradictions and to keep only directives it actually acts
-on. (Euria exposes neither a model name nor a version number, so this vetting is identified
-by date rather than by model, unlike `CLAUDE-usage.md`.)
+on.
 
 Fill it in (or trim it), then deploy the result in Euria (web).
 
