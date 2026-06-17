@@ -13,16 +13,28 @@ change its behaviour — rather than aspirational text it quietly ignores.
 
 Instructions specific to each assistant follow below, one section per assistant.
 
-**Anthropic's Claude is the first assistant vetted here.** Instruction sets for several
-others are in progress and will be added shortly:
-
-- **Euria** — Infomaniak
-- **Lumo** — Proton
-- **ChatGPT** — OpenAI
-- **Gemini** — Google
-- **GitHub Copilot** — GitHub
-
-## Claude
+## Claude (Anthropic)
 
 The Claude instruction set is **`CLAUDE-template.md`**. Instructions for filling it in and
 deploying it to Claude Code and claude.ai are in **[CLAUDE-usage.md](CLAUDE-usage.md)**.
+
+## Euria (Infomaniak)
+
+The Euria instruction set is **`EURIA-template.md`**. Instructions for filling it in and
+deploying it in Euria are in **[EURIA-usage.md](EURIA-usage.md)**.
+
+## Lumo (Proton)
+
+*Work in progress — instructions for this assistant will be added soon.*
+
+## ChatGPT (OpenAI)
+
+*Work in progress — instructions for this assistant will be added soon.*
+
+## Gemini (Google)
+
+*Work in progress — instructions for this assistant will be added soon.*
+
+## GitHub Copilot (GitHub)
+
+*Work in progress — instructions for this assistant will be added soon.*
