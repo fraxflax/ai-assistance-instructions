@@ -1,8 +1,8 @@
 # Using EURIA-template.md
 
 `EURIA-template.md` is the Euria instruction set: a starting point for a personal set of
-instructions that tell Euria (Infomaniak's web assistant) who you are and how you want it to
-respond. It was iterated and vetted in Euria on 17 June 2026 — run through the assistant to
+instructions that tell Euria ([Infomaniak's web assistant](https://euria.infomaniak.com/)) who
+you are and how you want it to respond. It was iterated and vetted in Euria on 17 June 2026 — run through the assistant to
 root out internal conflicts and contradictions and to keep only directives it actually acts
 on.
 

@@ -1,8 +1,8 @@
 # Using LUMO-template.md
 
 `LUMO-template.md` is the Lumo instruction set: a starting point for a personal set of
-instructions that tell Lumo (Proton's web assistant) who you are and how you want it to
-respond. It was iterated and vetted on 17 June 2026 in Lumo (launched 23 July 2025) — run through the
+instructions that tell Lumo ([Proton's web assistant](https://lumo.proton.me/)) who you are
+and how you want it to respond. It was iterated and vetted on 17 June 2026 in Lumo (launched 23 July 2025) — run through the
 assistant to root out internal conflicts and contradictions and to keep only directives it
 actually acts on.
 
