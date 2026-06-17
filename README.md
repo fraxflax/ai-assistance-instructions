@@ -15,13 +15,13 @@ Instructions specific to each assistant follow below, one section per assistant.
 
 ## Claude (Anthropic)
 
-The Claude instruction set is **`CLAUDE-template.md`**. Instructions for filling it in and
-deploying it to Claude Code and claude.ai are in **[CLAUDE-usage.md](CLAUDE-usage.md)**.
+The Claude instruction set is **[`CLAUDE-template.md`](claude/CLAUDE-template.md)**. Instructions for filling it in and
+deploying it to Claude Code and claude.ai are in **[`CLAUDE-usage.md`](claude/CLAUDE-usage.md)**.
 
 ## Euria (Infomaniak)
 
-The Euria instruction set is **`EURIA-template.md`**. Instructions for filling it in and
-deploying it in Euria are in **[EURIA-usage.md](EURIA-usage.md)**.
+The Euria instruction set is **[`EURIA-template.md`](euria/EURIA-template.md)**. Instructions for filling it in and
+deploying it in Euria are in **[`EURIA-usage.md`](euria/EURIA-usage.md)**.
 
 ## Lumo (Proton)
 
