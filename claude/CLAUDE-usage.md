@@ -6,7 +6,7 @@ and vetted using **Claude Opus 4.8 at max effort** — run through the model rep
 root out internal conflicts and contradictions and to keep only directives the model
 actually acts on.
 
-Fill it in (or trim it), then deploy the result to Claude Code and/or claude.ai.
+Fill it in (or trim it), then deploy the result to Claude Code and/or [claude.ai](https://claude.ai/).
 
 ## 1. Fill in and trim the template
 
