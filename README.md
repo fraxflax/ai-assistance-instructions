@@ -14,19 +14,19 @@ change its behaviour — rather than aspirational text it quietly ignores.
 Instructions specific to each assistant follow below, one section per assistant.
 
 ## Claude (Anthropic)
-Last updated: 30 June 2026
+*Last updated: 30 June 2026*
 
 The Claude instruction set is **[`CLAUDE-template.md`](claude/CLAUDE-template.md)**. Instructions for filling it in and
 deploying it to Claude Code and claude.ai are in **[`CLAUDE-usage.md`](claude/CLAUDE-usage.md)**.
 
 ## Euria (Infomaniak)
-Last updated: 17 June 2026
+*Last updated: 17 June 2026*
 
 The Euria instruction set is **[`EURIA-template.md`](euria/EURIA-template.md)**. Instructions for filling it in and
 deploying it in Euria are in **[`EURIA-usage.md`](euria/EURIA-usage.md)**.
 
 ## Gemini (Google)
-Last updated: 30 June 2026
+*Last updated: 30 June 2026*
 
 The Gemini instruction set comes in two forms, by account type: **[`GEMINI-template.md`](gemini/GEMINI-template.md)**
 (enterprise/Workspace — one document for a Gem) and **[`GEMINI-personal-template.md`](gemini/GEMINI-personal-template.md)**
@@ -34,7 +34,7 @@ The Gemini instruction set comes in two forms, by account type: **[`GEMINI-templ
 either are in **[`GEMINI-usage.md`](gemini/GEMINI-usage.md)**.
 
 ## Lumo (Proton)
-Last updated: 17 June 2026
+*Last updated: 17 June 2026*
 
 The Lumo instruction set is **[`LUMO-template.md`](lumo/LUMO-template.md)**. Instructions for filling it in and
 deploying it in Lumo are in **[`LUMO-usage.md`](lumo/LUMO-usage.md)**.
