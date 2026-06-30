@@ -1,38 +1,46 @@
 # Using GEMINI-template.md
 
-`GEMINI-template.md` is the Gemini instruction set: a starting point for a personal set of
-instructions that tell Gemini ([Google's assistant](https://gemini.google.com/)) who you are
-and how you want it to respond. It was vetted on 30 June 2026 on an enterprise/Workspace
+The Gemini instruction set — **`GEMINI-template.md`** (enterprise/Workspace) or
+**`GEMINI-personal-template.md`** (personal accounts) — is a starting point for instructions that
+tell Gemini ([Google's assistant](https://gemini.google.com/)) who you are and how you want it to
+respond. It was vetted on 30 June 2026 on an enterprise/Workspace
 account, with Gemini 3.1 Pro and 4.5 Thinking — first pasted into a chat to check for conflicts,
 then run from a Gem.
 
-Fill it in (or trim it), then deploy the result in Gemini. **How you deploy depends on your
-Google account type** (see step 2).
+**Which template you use and how you deploy it both depend on your account type** — pick yours in
+step 1, deploy in step 2.
 
-## 1. Fill in and trim the template
+## 1. Pick your template (by account type) and fill it in
 
-The template marks every spot you need to edit with `< place-holder: ... >`, and the text
-inside each marker describes what belongs there.
+Gemini deploys differently per account (see step 2), and the two templates are shaped to match —
+so pick the right one first:
 
-1. **Work from a copy** so the template stays clean for reuse:
+- **Enterprise / Workspace account** → **`GEMINI-template.md`** — one document, goes into a **Gem**.
+- **Personal / private account** → **`GEMINI-personal-template.md`** — separate entries, go into **Personal context**.
 
-   ```bash
-   cp GEMINI-template.md GEMINI.md   # then edit GEMINI.md
-   ```
+Work from a copy of the one you picked:
 
-2. **Replace each placeholder** with your own details. Replace the *entire* marker,
-   angle brackets included — don't leave any `< place-holder: ... >` text behind.
-3. **Delete what doesn't apply.** Sections labelled *Optional* (e.g. **My Interests**,
-   **Languages I want to use**) can be removed wholesale.
-4. **Mind the nested placeholder.** The language-correction bullet under **Languages I want
-   to use** contains a `< place-holder: ... >` inside another one — replace both.
+```bash
+cp GEMINI-template.md GEMINI.md            # enterprise / Workspace
+# or
+cp GEMINI-personal-template.md GEMINI.md   # personal account
+```
 
-When you're done, search the file for `place-holder` to confirm none remain.
+Then, in your copy:
 
-**Re-vet after changing the rules.** If you edit the rules themselves (not just fill in or
-delete placeholders), re-vet the whole instruction set: paste the full `GEMINI.md` into Gemini
-and ask whether anything in the instructions is problematic — conflicts, contradictions, or
-directives Gemini can't actually act on.
+1. **Replace each placeholder** — the whole `< place-holder: ... >` marker, angle brackets
+   included; don't leave any behind.
+2. **Delete what doesn't apply** — anything marked *Optional* (e.g. interests, languages) can be
+   removed wholesale.
+3. **Mind the nested placeholder** — the "language you're learning" spot has a
+   `< place-holder: ... >` inside another one; replace both.
+
+When you're done, search for `place-holder` to confirm none remain. (The personal template also
+has its own short "How to use" note at the top for adding the entries.)
+
+**Re-vet after changing the rules.** If you edit the rules themselves (not just fill in or delete
+placeholders), re-vet: load the full set into Gemini and ask whether anything is problematic —
+conflicts, contradictions, or directives Gemini can't actually act on.
 
 ## 2. Deploy in Gemini (web)
 
