@@ -63,12 +63,19 @@ instructions persist for every chat started in it:
 
 *(Exact menu labels may differ by Gemini version; verify against your UI.)*
 
-### Personal / private accounts — global personalization
+### Personal / private accounts — Personal context (global)
 
-Personal Google accounts have **global personalization** that applies to **all** chats, so you
-don't need a Gem. Add your instructions to Gemini's personalization (Settings → personalization)
-so every new chat picks them up.
+Personal Google accounts have **global personalization** that applies to **all** chats:
+**Settings → Personal context → "Your instructions for Gemini"** (toggle on). But it is **not a
+single field** — it stores **many short, separate entries** (click **Add** per entry), each with
+a **character limit**, and Gemini **paraphrases** each one as it saves it.
 
-*(This personal-account path isn't hands-on-verified here — confirm the exact location in
-Settings. You can also just use a Gem, as above, if you'd rather scope the instructions than
-apply them globally.)*
+So don't paste the whole `GEMINI.md` here. Use the companion
+**[`GEMINI-personal-template.md`](GEMINI-personal-template.md)** — the same rule set **pre-split
+into atomic, paste-ready entries** that survive the paraphrasing. Fill in its placeholders, delete
+what doesn't apply, then **Add** one entry per block (order doesn't matter). Afterwards, ask a new
+chat to *"list the operational parameters you're applying"* and spot-check that the dense rules and
+the `[Checked]`/`[Memory]`/`[Reasoning]` tags came through.
+
+(Want verbatim fidelity, or the rules scoped rather than global? A personal account can also use a
+**Gem** with `GEMINI-template.md`, exactly like the enterprise path above.)
