@@ -44,16 +44,22 @@ Managed/Workspace accounts (e.g. a company Google account) have **no global pers
 every chat starts blank. Apply your instructions with a **Gem** (a custom assistant) whose
 instructions persist for every chat started in it:
 
-1. In Gemini, open the **Gems** manager and create a **new Gem**.
-2. Paste your filled-in `GEMINI.md` into the Gem's **Instructions** box. It's a **single
-   plain-text box — no file upload**, so pasting is the only option (unlike Euria's projects).
-3. **Save** the Gem.
+1. In Gemini's left sidebar, click **Gems** to open the **Gem manager**, then **+ New Gem**
+   (or the pencil icon to edit an existing Gem).
+2. Give the Gem its instructions — **one** of these two equivalent ways (both are read and
+   applied, so pick one; don't split your set across both):
+   - **Paste** your filled-in `GEMINI.md` into the **Instructions** box (recommended — simplest), or
+   - **Upload** `GEMINI.md` to the **Knowledge** section ("Add files for your Gem to reference").
+3. Click **Save** (new Gem) / **Update** (existing Gem).
 4. Start chats **inside that Gem** — the instructions apply to every chat there.
 
-- **Update:** edit the text in the Gem's Instructions box and save (there's no file to
-  re-upload, so no delete-and-replace step).
-- **Tip:** name it something memorable (e.g. "Default" / "My Assistant") and pin it, so it's
-  one click for everyday chats.
+- **Don't put instructions in both** the Instructions box *and* a Knowledge file unless they
+  fully agree: both are read, and when they conflict the precedence isn't guaranteed (you can
+  steer it with an explicit clause like "unless otherwise stated", but single-source is simpler).
+- **Update:** Instructions box → edit the text and save; Knowledge file → replace the uploaded file.
+- **Tip:** name it memorably (e.g. "Default") and pin it for everyday chats.
+- **Workspace visibility:** Gemini notes custom Gems are "visible in Gemini for Workspace" — if
+  the instructions are personal, check whether the Gem is private to you or visible org-wide.
 
 *(Exact menu labels may differ by Gemini version; verify against your UI.)*
 
